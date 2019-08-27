@@ -1,5 +1,6 @@
 // click events
-$(".Nav-link").on("click", event => {
+const navLinkClick = () => {
   event.preventDefault();
-  alert("hello");
-});
+  alert("helloworld");
+};
+$(".Nav-link").on("click", navLinkClick);
