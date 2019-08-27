@@ -1,0 +1,33 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  width: 100vw;
+  height: 10vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.Nav-header {
+  padding: 0;
+  margin: 0;
+  width: 10vw;
+  color: white;
+}
+.Nav-links {
+  padding: 0;
+  margin: 0;
+  margin-right: 10vw;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.Nav-list-item {
+  margin: 0 2vw;
+}
+.Nav-link {
+  color: white;
+  text-decoration: none;
+}
